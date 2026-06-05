@@ -1,41 +1,75 @@
-# Symphony
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# symphony
 
-Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage
-work instead of supervising coding agents.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/symphony)
 
-[![Symphony demo video preview](.github/media/symphony-demo-poster.jpg)](.github/media/symphony-demo.mp4)
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-_In this [demo video](.github/media/symphony-demo.mp4), Symphony monitors a Linear board for work and spawns agents to handle the tasks. The agents complete the tasks and provide proof of work: CI status, PR review feedback, complexity analysis, and walkthrough videos. When accepted, the agents land the PR safely. Engineers do not need to supervise Codex; they can manage the work at a higher level._
+## Architecture
 
-> [!WARNING]
-> Symphony is a low-key engineering preview for testing in trusted environments.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-## Running Symphony
+## Install
 
-### Requirements
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-Symphony works best in codebases that have adopted
-[harness engineering](https://openai.com/index/harness-engineering/). Symphony is the next step --
-moving from managing coding agents to managing work that needs to get done.
+```bash
+git clone https://github.com/Interested-Deving-1896/symphony.git
+cd symphony
+```
 
-### Option 1. Make your own
+## Usage
 
-Tell your favorite coding agent to build Symphony in a programming language of your choice:
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-> Implement Symphony according to the following spec:
-> https://github.com/openai/symphony/blob/main/SPEC.md
+## Configuration
 
-### Option 2. Use our experimental reference implementation
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-Check out [elixir/README.md](elixir/README.md) for instructions on how to set up your environment
-and run the Elixir-based Symphony implementation. You can also ask your favorite coding agent to
-help with the setup:
+## CI
 
-> Set up Symphony for my repository based on
-> https://github.com/openai/symphony/blob/main/elixir/README.md
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
----
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/symphony`](https://github.com/Interested-Deving-1896/symphony) and mirrored through:
+
+```
+Interested-Deving-1896/symphony  ──►  OpenOS-Project-OSP/symphony  ──►  OpenOS-Project-Ecosystem-OOC/symphony
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE).
+<!-- AI:start:license -->
+[Apache-2.0](https://github.com/Interested-Deving-1896/symphony/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
